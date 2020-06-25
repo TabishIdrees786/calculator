@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div align="center">
+        <h1>CALCULATOR</h1>
+    </div>
+    <div class="mainCalc">
+        <div>
+            <input class="result" type="text" name="" id="result">
+        </div>
+        <div>
+            <button class="halfbtn" onclick="clearResult()">C</button>
+            <button class="halfbtn" onclick="result()">=</button>
+        </div>
+        <div>
+            <button class="btn" onclick="picdig('7')">7</button>
+            <button class="btn" onclick="picdig('8')">8</button>
+            <button class="btn" onclick="picdig('9')">9</button>
+            <button class="btn" onclick="picdig('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="picdig('4')">4</button>
+            <button class="btn" onclick="picdig('5')">5</button>
+            <button class="btn" onclick="picdig('6')">6</button>
+            <button class="btn" onclick="picdig('*')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="picdig('1')">1</button>
+            <button class="btn" onclick="picdig('2')">2</button>
+            <button class="btn" onclick="picdig('3')">3</button>
+            <button class="btn" onclick="picdig('-')">-</button>
+        </div>
+        <div>
+            <button class="halfbtn" onclick="picdig('0')">0</button>
+            <button class="btn" onclick="picdig('.')">.</button>
+            <button class="btn" onclick="picdig('+')">+</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

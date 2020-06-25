@@ -1,0 +1,44 @@
+.mainCalc {
+    border: 2px solid black;
+    width: 180px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.result {
+    width: 95%;
+}
+
+.result:hover {
+    background-color: grey;
+}
+
+.result:focus {
+    background-color: lawngreen;
+}
+
+.halfbtn {
+    width: 47.5%;
+    margin: 1px;
+}
+
+.btn {
+    width: 22%;
+    margin: 1px;
+}
+
+.btn,
+.halfbtn {
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 2px;
+    /* box-shadow: 1px 1px 1px grey; */
+}
+
+.btn:hover,
+.halfbtn:hover {
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px grey;
+}
